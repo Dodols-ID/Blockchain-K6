@@ -1,0 +1,18 @@
+{
+  "name": "music-license-mvp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Kelompok 6 — Lisensi & Transaksi Musik berbasis Blockchain (MVP minggu 2)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:model": "node --test model/*.test.js",
+    "deploy:local": "hardhat run scripts/deploy.js",
+    "deploy:amoy": "hardhat run scripts/deploy.js --network amoy"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  }
+}

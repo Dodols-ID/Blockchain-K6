@@ -1,0 +1,80 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\loren\\Desktop\\music-license-mvp-w2\\contracts\\MusicLicensing.sol": {
+      "lastModificationDate": 1794809625890,
+      "contentHash": "a168927d0260899686cfb2e52798bace",
+      "sourceName": "contracts/MusicLicensing.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "MusicLicensing"
+      ]
+    },
+    "C:\\Users\\loren\\Desktop\\music-license-mvp-w2\\contracts\\test\\Mocks.sol": {
+      "lastModificationDate": 1794809625888,
+      "contentHash": "e07f4ac60d5436545d976f8e33e017a2",
+      "sourceName": "contracts/test/Mocks.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "FeeOnTransferToken",
+        "MockIDRX",
+        "ReentrantPayee",
+        "RevertingReceiver"
+      ]
+    }
+  }
+}
